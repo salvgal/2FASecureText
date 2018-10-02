@@ -15,7 +15,7 @@ public class HttpClient {
 	// HTTP GET request
 	public void sendGet(String otp, String phoneNumber) throws Exception {
 
-		//String to connect to 12VoiP
+		//String to connect to 12VoiP insert username and password of 12voip client in order to send sms
 		String url = "https://www.12voip.com/myaccount/sendsms.php?username=&password=&from=&to=";
 		url+=phoneNumber;
 		url+="&text=Your OTP: ";
