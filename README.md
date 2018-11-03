@@ -6,6 +6,6 @@ The requirement is to implement a 2 Factor Authentication, finding a solution to
 It is designed using MVC pattern in Spring Framework.
 
 Process:
-The login page show the login form, after submitted correct input, the app creates an hash code saved in session, and send the OPT via. The opt is verified by the browser and matched with the hash code.
-If the text part is hacked, it is impossible to login due to the hash code saved in the browser session.
+The login page show the login form, after submitted correct input, the app creates an hash code saved in session, and send the OPT via mobile text. The opt is verified by the browser and matched with the hash code.
+If the text part is hacked, it is not possible to login due to the hash code saved in the browser session.
 Hence, the text part of the 2FA is made secure.
