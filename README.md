@@ -1,9 +1,9 @@
-# 2FA Secure Text
+# Two Factor Authentication - Securing Text Message (Information Security)
 
-This is a project made for the University class: 780 - Internet Security.
-
-The requirement is to implement a 2 Factor Authentication, finding a solution to make the text factor secure.
+This project requirement is to implement a 2 Factor Authentication, finding a solution to make the text factor secure.
 It is designed using MVC pattern in Spring Framework.
+
+Outcome: This tool offer a viable alternative solution to improve security in a multi factor authentication system.
 
 Process:
 The login page show the login form, after submitted correct input, the app creates an hash code saved in session, and send the OPT via mobile text. The opt is also the key for the hash code, and it is verified by the browser and in case of a match, the user is authenticated.
