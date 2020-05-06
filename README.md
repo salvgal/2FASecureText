@@ -16,4 +16,4 @@ If the text part is hacked, it is not possible to login. This happens due to the
 
 ## 
 ### Final considerations: 
-The downside of this implementation is that if both the client browser session and the OTP and are compromised (i.e. session hijacking + man in the middle in the second factor), this may create a vulnerability on the system with a real way of exploitation.
+The downside of this implementation is that in case both the client browser session and the OTP are compromised (i.e. session hijacking + man in the middle for the second factor), this may create a vulnerability on the system with a real way of exploitation. But this implementation is fare more robust than a plain basic implementation of 2FA.
